@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- image wrapper start -->
+    <div class="wrapper">
+      <h2>Image Gallery</h2>
+      <div class="img-wrapper">
+        <span style="--img-no: 1">
+          <a
+           href="../images/img-01.jpg"
+           data-fancybox="gallery"
+           data-caption="The blue & yellow macaw, with its striking colours, is a symbol of the South American rainforest"
+           >
+          <img
+           src="../images/img-01.jpg"
+           width="200"
+           height="180"
+           alt="error"
+           />
+          </a>
+        </span>
+
+        <span style="--img-no: 2">
+          <a
+            href="../images/img-02.jpg"
+            data-fancybox="gallery"
+            data-caption="A family of elephants, stands gracefully in their natural habitat"
+          >
+            <img
+              src="../images/img-02.jpg"
+              width="200"
+              height="180"
+              alt="error"
+            />
+          </a>
+        </span>
+
+        <span style="--img-no: 3">
+          <a
+            href="../images/img-03.jpg"
+            data-fancybox="gallery"
+            data-caption="A congregation of flamingos, a splash of pink, reflecting nature's artistry"
+          >
+            <img
+              src="../images/img-03.jpg"
+              width="200"
+              height="180"
+              alt="error"
+            />
+          </a>
+        </span>
+        
+        <span style="--img-no: 4">
+          <a
+           href="../images/img-04.jpg"
+           data-fancybox="gallery"
+           data-caption="The peacock, a jewel of nature"
+           >
+          <img
+           src="../images/img-04.jpg"
+           width="200"
+           height="180"
+           alt="error"
+           />
+           </a>
+        </span>
+
+        <span style="--img-no: 5">
+         <a
+           href="../images/img-05.jpg"
+           data-fancybox="gallery"
+           data-caption="The bengal tiger, a symbol of power"
+           >
+        <img
+           src="../images/img-05.jpg"
+           width="200"
+           height="180"
+           alt="error"
+           />
+          </a>
+        </span>
+
+        <span style="--img-no: 6">
+          <a
+           href="../images/img-06.jpg"
+           data-fancybox="gallery"
+           data-caption="The giraffe, the world's tallest mammal"
+           >
+         <img
+           src="../images/img-06.jpg"
+           width="200"
+           height="180"
+           alt="error"
+           />
+         </a>
+        </span>
+
+        <span style="--img-no: 7">
+         <a
+         href="../images/img-07.jpg"
+         data-fancybox="gallery"
+         data-caption="The polar bear, a master of the arctic"
+         >
+        <img
+         src="../images/img-07.jpg"
+         width="200"
+         height="180"
+         alt="error"
+         />
+        </a>
+        </span>
+
+        <span style="--img-no: 8">
+         <a
+         href="../images/img-08.jpg"
+         data-fancybox="gallery"
+         data-caption="Dear"
+        >
+        <img
+         src="../images/img-08.jpg"
+         width="200"
+         height="180"
+         alt="error"
+        />
+        </a>
+        </span>
+      </div>
+
+      <!-- btn wrapper start -->
+      <div class="btn-wrapper">
+        <button type="button" class="btn" id="prev">Prev < </button>
+        <button type="button" class="btn" id="next">Next ></button>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+  </body>
+</html>
